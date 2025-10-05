@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pacific Trails Resort :: Reservations</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Pacific Trails Resort offers a special lodging experience on the California North Coast with amazing views of the Pacific Ocean. Enjoy luxury yurts, fine dining, and guided tours.">
+    <link rel="stylesheet" href="pacific.css">
+</head>
+
+<body>
+    <div id="wrapper">
+    <header>
+        <h1><a href="index.html">Pacific Trails Resort</a></h1>
+    </header>
+
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="yurts.html">Yurts</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Reservations at Pacific Trails</h2>
+
+        <h3>Contact Us Today!</h3>
+        	<p>Required fields are marked with an asterisk *.</p>
+
+        <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+                    <label for="myFName">*First Name</label>
+                    <input type="text" id="myFName" name="myFName" required>
+
+                    <label for="myLName">*Last Name</label>
+                    <input type="text" id="myLName" name="myLName" required>
+
+                    <label for="myEmail">*E-mail</label>
+                    <input type="email" id="myEmail" name="myEmail" required>
+
+                    <label for="myPhone">Phone:</label>
+                    <input type="tel" id="myPhone" name=myPhone" maxlength="12">
+
+                    <label for="myArrival">Arrival Date</label>
+                    <input type="date" id="myArrival" name="myArrival">
+
+                    <label for="myNights">Nights:</label>
+                    <input type="number" id="myNights" name="myNights" minlength="1" maxlength="14">
+
+                    <label for="myComments">*Comments</label>
+                    <textarea id="myComments" name="myComments" rows="2" cols="30"></textarea>
+
+                    <input type="submit" value="Submit">
+        	</form>
+		<p> Required fields are marked with an asterisk *.</p>
+
+	<h3>Yurt Packages</h3>
+        	<p>A variety of luxury yurt packages are available. Choose a package below and contact us to begin your reservation. We’re happy to build a custom package just for you!</p>
+        	<table>
+            	<tr>
+                	<th>Package Name</th>
+                	<th>Description</th>
+                	<th>Nights</th>
+                	<th>Cost per Person</th>
+            	</tr>
+            	<tr>
+                	<td>Weekend Escape</td>
+                	<td class="text">Two breakfasts, a trail map, and a picnic snack</td>
+                	<td>2</td>
+                	<td>$450</td>
+           	</tr>
+            	<tr>
+                	<td>Zen Retreat</td>
+                	<td class="text">Four breakfasts, a trail map, a picnic snack, and a pass for the daily sunrise Yoga session</td>
+                	<td>4</td>
+                	<td>$600</td>
+            	</tr>
+            	<tr>
+                	<td>Kayak Away</td>
+               	 	<td class="text">Two breakfasts, two hours of kayak rental daily, and a trail map</td>
+                	<td>2</td>
+                	<td>$500</td>
+            	</tr>
+        	</table>
+
+
+
+		<div id="contact">
+			<p> <span class="resort">Pacific Trails Resort</span>
+				<br>12010 Pacific Trails Roads
+				<br>Zephyr, CA 95555 
+				<br>888-555-5555</p>
+		</div>
+
+    </main>
+    
+    <footer>
+        <p>Copyright &copy; 2022 Pacific Trails Resort</p>
+        <p><a href="jrlope32@asu.edu">juan@lopez.com</a></p>
+    </footer>
+</body>
